@@ -33,8 +33,11 @@ div {
   }
 
   body {
-    background-image: url("https://64.media.tumblr.com/tumblr_m90waaPRoO1rc95too6_500.png");
     color: black;
     font-family: arial;
     font-size: 24px;
+  }
+
+  grad {
+    background-image: linear-gradient(to top, pink , lavender);
   }
