@@ -1,9 +1,9 @@
 body {
-  background-color: papayawhip;
+  background-color: #ffefd5;
 }
 #backdrop {
   display: flex;
-  background-color:papayawhip;
+  background-color:#ffefd5;
   justify-content: center;
   align-content: center;
   height: 100vh;
@@ -12,10 +12,10 @@ body {
 
 #biobox {
   display: flex;
+  flex-direction: row;
   background-color: rgb(52, 134, 206);
   height: 50%;
   width: 80%;
-  border: 0cm;
   padding: 50px;
 }
 
