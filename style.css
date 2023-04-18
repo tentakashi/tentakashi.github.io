@@ -1,16 +1,33 @@
 div {
-    width: 600px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     padding: 5px;
     background: rgba(255, 255, 255, 0.43);
-    color: rgb(66, 189, 86);
+    color: rgb(0, 0, 0);
   }
 
-  section {
-    width: 600px;
-    height: 600px;
-    display: flex;
-    border: 1px dotted #2d2d2d;
-    justify-content: center;
-    align-items: center;
-  }
+#backdrop {
+  display: flex;
+  background-color:papayawhip;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+#biobox {
+  display: flex;
+  background-color: rgb(52, 134, 206);
+  border: 0cm;
+}
+
+#left {
+  display: flex;
+  flex-direction: column;
+  color: black;
+}
+
+#right {
+  display: flex;
+  color: red;
+}
