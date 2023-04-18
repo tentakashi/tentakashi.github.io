@@ -35,7 +35,19 @@ body {
 }
 
 #namebox {
+  display: flex;
+  flex-direction: column;
   background-color: #ffffff;
   border-radius: 15px 50px 30px 5px;
   padding: 10px;
+}
+
+#icon1 {
+display: flex;
+flex-direction: column;
+}
+
+#name {
+  display: flex;
+  flex-direction: column;
 }
