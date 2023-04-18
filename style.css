@@ -38,7 +38,7 @@ body {
   display: flex;
   background-color: #ffffff;
   border-radius: 15px;
-  width:50%;
+  width:60%;
   padding: 5px;
   margin:10px;
 }
@@ -52,8 +52,8 @@ body {
 
 #name, #title, #location {
   display: flex;
-
-
+  justify-content: center;
+  vertical-align: middle;
 }
 
 #tag {
