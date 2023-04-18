@@ -33,24 +33,23 @@ body {
   color: #ff0000;
 }
 
-#namebox {
+#namebox, #locationbox {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   background-color: #ffffff;
   border-radius: 15px;
   padding: 10px;
+  margin:10px;
 }
 
-#icon1 {
-display: flex;
-flex-direction: column;
-width: 20%;
+#icon1, #icon2 {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
 }
 
 #name {
+  display: flexbox;
   display: flex;
-  flex-direction: column;
-  width: 80%;
-  border:10px;
-  color: #000000;
+
 }
