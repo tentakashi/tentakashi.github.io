@@ -29,13 +29,13 @@ body {
 
 #right {
   display: flex;
+  flex-direction: column;
   width: 60%;
   color: #ff0000;
 }
 
 #namebox, #locationbox {
   display: flex;
-  flex-direction: row;
   background-color: #ffffff;
   border-radius: 15px;
   width:50%;
@@ -47,10 +47,16 @@ body {
   display: flex;
   flex-direction: column;
   width: 20%;
+  margin:5px
 }
 
-#name {
-  display: flexbox;
+#name, #title, #location {
   display: flex;
 
+
+}
+
+#tag {
+  display: flex;
+  flex-direction: row;
 }
