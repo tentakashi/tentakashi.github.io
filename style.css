@@ -3,31 +3,14 @@ div {
     height: 300px;
     padding: 5px;
     background: rgba(255, 255, 255, 0.43);
-    color: purple;
+    color: rgb(66, 189, 86);
   }
 
-  .flex-container {
+  section {
+    width: 600px;
+    height: 600px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: row wrap;
-    border-color:purple;
-    border-style: solid;
-    border-width:10px;
-  }
-
-  #left {
-    width: 250px;
-    border-width: 10px;
-    border-style: solid;
-    border-color: pink;
-    color: black;
-    font-size:15px;
-  }
-
-  #right {
-    width: 350px;
-    color: blue;
-    border-width: 10px;
-    border-style: solid;
-    font-size: 13px;
+    border: 1px dotted #2d2d2d;
+    justify-content: center;
+    align-items: center;
   }
