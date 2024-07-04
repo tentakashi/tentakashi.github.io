@@ -1,32 +1,123 @@
+/*Flexbox-related stuffs*/
+
+html, body {
+    margin:0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    max-width:100%;
+    position:relative;
+}
+
+.wrapper {
+    display:flex;
+    max-height: 100vh;
+    max-width: 100vw;
+}
+
+.content {
+    display: flex;
+    position:absolute;
+    min-height: 100vh;
+    min-width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+.widthwrap {
+    display: flex;
+    flex-direction: column;
+}
 
 .container {
-  max-width: 900px;
-  margin:0;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 
-.flex {
-  display: flex;
-  flex-direction: column;
+/*everything else lol*/
+
+.gaegu-regular {
+    font-family: "Gaegu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+body {
+    background-color: pink;
+    background-image: url(https://files.catbox.moe/35mskz.jpg);
+    background-size: 2500px;
+    background-position-y: -300px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    font-family: gaegu;
+    font-size: 1.05em;
+    letter-spacing: -1px;
+    line-height: 20px;
 }
 
-aside {
-  background-color: #241445;
-  width: 200px;
-  padding: 20px;
+body h1 {
+    font-size: 2.5em;
 }
 
-.sidebar{
-  background-color: pink;
-  width: 20%;
-  margin-right:10px;
-  flex: 1;
-  order: 1;
+h1::after{
+    content:url(https://64.media.tumblr.com/5bcebc7467e300b9ecb5bc05c593374e/864d1bda21cb5b1a-6c/s75x75_c1/1738868b39a3e86282460cd2e2771635cccccb3f.gifv);
+    margin-left:10px;
 }
 
-main {
-  background-color: #43256E;
-  width: 700px;
-  flex: 2;
-  padding: 20px;
-  order: 2;
+.container {
+    background-color: rgba(255, 255, 255, 0);
+    display:flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.top {
+    background-color: #f5cdc2a5;
+    background-image: url(https://files.catbox.moe/rkkoub.png);
+    background-size: 320px;
+    background-repeat: no-repeat;
+    background-position-x:-55px;
+    background-position-y: -18px;
+
+    width: 700px;
+    height: fit-content;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-left: 255px;
+    border-radius:20px;
+
+    outline: 1px dashed #b0634f;
+    outline-offset: 8px;
+}
+
+#links {
+    text-align: center;
+}
+
+#links a {
+    background-color: rgba(255, 255, 255, 0.798);
+    padding:5px;
+    border-radius: 4px;
+    text-decoration: none;
+    color:#b0634f
+}
+
+#links a:hover {
+    color:#5e2213;
+    background-color: #ffd9cf;
+}
+
+footer {
+    color:#5e2213;
+    margin-top: 20px;
+    font-style: italic;
+    width: 700px;
+    height: fit-content;
+    text-align: center;
 }
